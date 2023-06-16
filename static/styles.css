@@ -1,0 +1,134 @@
+body {
+    background-color: #EEE9DA !important;
+}
+
+nav{
+    background-color: #6096B4;
+}
+
+#title{
+    font-size: 5rem;
+}
+
+.heading{
+    background-image:linear-gradient(to right, #93BFCF, rgba(189, 205, 214, 0.73)), url("https://asset.kompas.com/crops/4LL9vDzLIqHp7WZD9oOo5TtBlNk=/71x64:927x634/750x500/data/photo/2019/10/08/5d9c0e8f9b45b.jpg");
+    padding-left: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.title{
+    margin: 5%;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.fade-in {
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+	}
+	100% {
+        opacity: 1;
+	}
+}
+
+.post-title{
+    font-size: 1.5rem;
+    color: #333333;
+    font-weight: 500;
+}
+
+.post-title:link{
+    color: #333333;
+}
+
+.post{
+    background-color: #93BFCF !important;
+}
+
+.post-footer{
+    color: #EEE9DA;
+}
+
+.post-footer:link{
+    color: #EEE9DA;
+}
+
+.post-footer:hover{
+    color: #6096B4;
+}
+
+.photo{
+    width: 360px;
+    height: 360px;
+    background-image:linear-gradient(to right, rgba(147, 191, 207, 0.73), rgba(189, 205, 214, 0.73)), url("/static/tokyo.jpeg");
+    text-align: bottom;
+    font-size: 5rem;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.photoframe {
+  position: relative;
+  text-align: center;
+  color: #93BFCF;
+  transition: transform .2s;
+}
+
+.photoframe:hover{
+    transform: scale(1.1);
+}
+
+.gallery-text{
+    font-size: 4rem;
+}
+
+.footer-text{
+    text-align: center;
+    background-color: #6096B4;
+    padding: 5%;
+}
+
+.icon{
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+.icon:hover{
+    color: #93BFCF;
+}
+
+@media only screen and (max-width: 800px){
+    nav{
+        background-color: #A4BC92;
+    }
+
+    body{
+        background-color: #DDFFBB !important;
+    }
+
+    .post{
+        background-color: #B3C99C !important;
+    }
+
+    .footer-text{
+        background-color: #A4BC92;
+    }
+
+    .photoframe{
+        color: #B3C99C;
+    }
+}
